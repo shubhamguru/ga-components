@@ -1,0 +1,38 @@
+enum BoxAlignItems {
+    BASELINE = 'baseline',
+    END = 'end',
+    CENTER = 'center',
+    RIGHT = 'right',
+    FLEX_END = 'flex-end',
+    FLEX_START = 'flex-start',
+    INHERIT = 'inherit',
+    INITIAL = 'initial',
+    NORMAL = 'normal',
+    REVERT = 'revert',
+    REVERT_LAYER = 'revert-layer',
+    SELF_END = 'self-end',
+    SELF_START = 'self-start',
+    START = 'start',
+    STRETCH = 'stretch',
+
+}
+enum BoxJustification {
+    CENTER = 'center',
+    END = 'end',
+    FLEX_END = 'flex-end',
+    FLEX_START = 'flex-start',
+    INHERIT = 'inherit',
+    INITIAL = 'initial',
+    LEFT = 'left',
+    NORMAL = 'normal',
+    REVERT = 'revert',
+    REVERT_LAYER = 'revert-layer',
+    RIGHT = 'right',
+    SPACE_AROUND = 'space-around',
+    SPACE_BETWEEN = 'space-between',
+    SPACE_EVENLY = 'space-evenly',
+    START = 'start',
+    STRETCH = 'stretch',
+    UNSET = 'unset',
+}
+export { BoxAlignItems , BoxJustification };
